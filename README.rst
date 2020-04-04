@@ -1,7 +1,7 @@
 ******
 Qvevri
 ******
-Qvevri is a basic Wine Manager forked from Qvevri
+Qvevri is a basic Wine Manager forked from Lutris
 
 ToDo
 
