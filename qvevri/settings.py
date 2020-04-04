@@ -6,9 +6,9 @@ from qvevri import __version__
 
 PROJECT = "Qvevri"
 VERSION = __version__
-COPYRIGHT = "(c) 2010-2019 Qvevri Gaming Platform"
+COPYRIGHT = "(c) 2020 Qvevri"
 AUTHORS = [
-    "The Qvevri team"
+    "RickAndTired"
 ]
 
 # Paths
@@ -35,7 +35,7 @@ INSTALLER_REVISION_URL = SITE_URL + "/api/installers/games/%s/revisions/%s"
 GAME_URL = SITE_URL + "/games/%s/"
 ICON_URL = SITE_URL + "/games/icon/%s.png"
 BANNER_URL = SITE_URL + "/games/banner/%s.jpg"
-RUNTIME_URL = "https://qvevri.net/api/runtime"
+RUNTIME_URL = "https://lutris.net/api/runtime"
 
 DEFAULT_DISCORD_CLIENT_ID = "618290412402114570"
 
