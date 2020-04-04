@@ -27,7 +27,7 @@ ICON_PATH = os.path.join(GLib.get_user_data_dir(), "icons", "hicolor", "128x128"
 
 sio = SettingsIO(CONFIG_FILE)
 PGA_DB = sio.read_setting("pga_path") or os.path.join(DATA_DIR, "pga.db")
-SITE_URL = sio.read_setting("website") or "https://qvevri.net"
+SITE_URL = sio.read_setting("website") or "https://lutris.net"
 
 INSTALLER_URL = SITE_URL + "/api/installers/%s"
 # XXX change this, should query on the installer, not the game.
