@@ -62,11 +62,11 @@ ToDo
 
 Other
 
-- [] rename
-- [] about page
-- [] create default wine bottle
-- [] change config directory
-- [] replace icons/artwork
+- [x] rename
+- [x] about page
+- [x] create default wine bottle
+- [x] change config directory
+- [x] replace icons/artwork
 - [] snapcraft
 - [] remove unused code
 - [] remove unused files
