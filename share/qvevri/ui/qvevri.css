@@ -1,0 +1,33 @@
+.qvevri-logview > text {
+  color: rgb(255, 199, 116);
+  background-color: rgb(47, 47, 47);
+}
+
+.qvevri-logview > text > selection {
+  color: rgb(47, 47, 47);
+  background-color: rgb(255, 199, 116);
+}
+
+.sidebar button {
+  padding: 0;
+  border: 0;
+}
+
+.sidebar button > image {
+  padding: 0;
+  border: 0;
+}
+
+.panel-button label {
+    font-weight: normal;
+}
+
+row:selected {
+  background: transparent;
+}
+row:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+row:selected, row:selected button label, row:selected label {
+  color: inherit;
+}

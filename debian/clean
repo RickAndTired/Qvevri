@@ -1,0 +1,4 @@
+build/
+.pybuild/
+qvevri.egg-info/
+qvevri/__pycache__/
