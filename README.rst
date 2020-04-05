@@ -3,8 +3,33 @@ Qvevri
 ******
 Qvevri is a basic Wine Manager forked from Lutris
 
-ToDo
 
+**Dependencies:**
+
+Wine
+
+Python 3 (PyGObject3 and PyYAML)
+
+**Download and extract Qvevri**
+
+Run bin/qvevri
+
+(**DO NOT** use setup.py install)
+
+**Locations**
+
+~/.local/share/qvevri/
+
+~/.local/share/qvevri/defaultbottle/
+
+~/.local/share/qvevri/runners/wine/
+
+~/.config/qvevri/
+
+
+******
+ToDo
+******
 /share/qvevri/ui/qvevri-window.ui
 
 - [x] hide account button
@@ -35,7 +60,7 @@ ToDo
 
 /qvevri/runners/wine.py
 
-- [] set default wine prefix/bottle
+- [x] set default wine prefix/bottle
 - [x] rename wine prefix to wine bottle
 - [x] move arguments to below Wine Version in Options tab
 - [x] hide various options
@@ -56,7 +81,7 @@ ToDo
 
 /qvevri/sysoptions.py
 
-- [] change defualt installation folder
+- [x] change defualt installation folder
 - [x] hide everything other than Gamemode, ACO, and Environment variables to "advanced"
 - [x] remove "condition" line from gamemode
 
