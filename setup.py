@@ -22,8 +22,8 @@ setup(
     name='qvevri',
     version=VERSION,
     license='GPL-3',
-    author='Mathieu Comandon',
-    author_email='strider@strycore.com',
+    author='RickAndTired',
+#    author_email='',
     packages=[
         'qvevri',
         'qvevri.gui',
