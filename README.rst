@@ -12,7 +12,7 @@ Python 3 (PyGObject3 and PyYAML)
 
 **Download and extract Qvevri**
 
-Run bin/qvevri
+Run **Qvevri-Launcher.sh** or **bin/qvevri**
 
 (**DO NOT** use setup.py install)
 
