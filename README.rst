@@ -107,6 +107,7 @@ Other
 Long-term ToDo / unlikly wish list
 
 - [] Simplify - create Wine Bottle - Run installer - Create program listing
+- [] Left side panel - Wine Bottle selection
 - [] Winetricks checkbox UI to see what is already installed
 - [] Winetricks bundles
 - [] Wine downloader
