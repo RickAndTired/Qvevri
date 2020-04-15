@@ -115,7 +115,6 @@ desktop-file-validate %{buildroot}%{_datadir}/applications/%{appid}.desktop
 
 %files
 %{_bindir}/%{name}
-%{_bindir}/qvevri-wrapper
 %{_datadir}/%{name}/
 %{_datadir}/metainfo/%{appid}.metainfo.xml
 %{_datadir}/applications/%{appid}.desktop
@@ -124,6 +123,8 @@ desktop-file-validate %{buildroot}%{_datadir}/applications/%{appid}.desktop
 %{_datadir}/icons/hicolor/24x24/apps/qvevri.png
 %{_datadir}/icons/hicolor/32x32/apps/qvevri.png
 %{_datadir}/icons/hicolor/48x48/apps/qvevri.png
+%{_datadir}/icons/hicolor/64x64/apps/lutris.png
+%{_datadir}/icons/hicolor/128x128/apps/lutris.png
 %{_datadir}/icons/hicolor/scalable/apps/qvevri.svg
 %{python3_sitelib}/%{name}-*.egg-info
 %{python3_sitelib}/%{name}/
