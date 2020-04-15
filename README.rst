@@ -95,6 +95,8 @@ Other
 - [x] change config directory
 - [x] replace icons/artwork
 - [x] add launcher to root dir
+- [] edit CONTRIBUTING.md
+- [] remove setup.py ?
 - [] snapcraft
 - [] remove unused code
 - [] remove unused files
