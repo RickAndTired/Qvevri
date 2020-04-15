@@ -49,6 +49,7 @@ ToDo
 /qvevri/startup.py
 
 - [x] hide donate pop up
+- [x] change driver message
 
 /qvevri/gui/config/common.py
 
@@ -93,6 +94,7 @@ Other
 - [x] create default wine bottle
 - [x] change config directory
 - [x] replace icons/artwork
+- [x] add launcher to root dir
 - [] snapcraft
 - [] remove unused code
 - [] remove unused files
