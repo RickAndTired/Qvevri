@@ -90,9 +90,7 @@ def check_driver():
                 "Your Nvidia driver is outdated.",
                 secondary_message="You are currently running driver %s which does not "
                 "fully support all features for Vulkan and DXVK games.\n"
-                "Please upgrade your driver as described in our "
-                "<a href='https://github.com/qvevri/qvevri/wiki/Installing-drivers'>"
-                "installation guide</a>" % driver_info["nvrm"]["version"],
+                "Please upgrade your driver",
             )
 
 
@@ -119,10 +117,7 @@ def check_libs(all_components=False):
                 "Missing vulkan libraries",
                 secondary_message="Qvevri was unable to detect Vulkan support for "
                 "the %s architecture.\n"
-                "This will prevent many games and programs from working.\n"
-                "To install it, please use the following guide: "
-                "<a href='https://github.com/qvevri/qvevri/wiki/Installing-drivers'>"
-                "Installing Graphics Drivers</a>" % " and ".join(missing_vulkan_libs),
+                "This will prevent many games and some programs from working.",
             )
 
 
