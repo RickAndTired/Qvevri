@@ -14,8 +14,6 @@ Python 3 (PyGObject3 and PyYAML)
 
 Run **Qvevri-Launcher.sh** or **bin/qvevri**
 
-(**DO NOT** use setup.py install)
-
 **Locations**
 
 ~/.local/share/qvevri/
@@ -48,7 +46,7 @@ ToDo
 
 /qvevri/startup.py
 
-- [x] hide donate pop up
+- [x] hide pop ups
 - [x] change driver message
 
 /qvevri/gui/config/common.py
