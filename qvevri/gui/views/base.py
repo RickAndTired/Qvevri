@@ -1,5 +1,5 @@
 from gi.repository import Gdk, GObject
-from lutris.util.log import logger
+from qvevri.util.log import logger
 from qvevri.game import Game
 from qvevri import pga
 from qvevri.gui.views import (
