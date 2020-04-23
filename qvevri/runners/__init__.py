@@ -3,7 +3,7 @@
 
 __all__ = (
     # Native
-#    "linux",
+    "linux",
 #    "steam",
 #    "browser",
 #    "web",
@@ -17,7 +17,7 @@ __all__ = (
 #    "mednafen",
 #    "scummvm",
 #    "residualvm",
-#    "libretro",
+    "libretro",
 #    "ags",
     # Commdore
 #    "fsuae",
