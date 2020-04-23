@@ -109,16 +109,16 @@ def check_libs(all_components=False):
                     missing_vulkan_libs.append(arch)
                 logger.error("%s %s missing (needed by %s)", arch, lib, req.lower())
 
-    if missing_vulkan_libs:
-        setting = "dismiss-missing-vulkan-library-warning"
-        if settings.read_setting(setting) != "True":
-            DontShowAgainDialog(
-                setting,
-                "Missing vulkan libraries",
-                secondary_message="Qvevri was unable to detect Vulkan support for "
-                "the %s architecture.\n"
-                "This will prevent many games and some programs from working.",
-            )
+#    if missing_vulkan_libs:
+#        setting = "dismiss-missing-vulkan-library-warning"
+#        if settings.read_setting(setting) != "True":
+#            DontShowAgainDialog(
+#                setting,
+#                "Missing vulkan libraries",
+#                secondary_message="Qvevri was unable to detect Vulkan support for "
+#                "the %s architecture.\n"
+#                "This will prevent many games and some programs from working.",
+#            )
 
 
 def check_vulkan():
@@ -164,6 +164,6 @@ def run_all_checks():
     """Run all startup checks"""
     check_driver()
     check_libs()
-#    check_vulkan()
+    check_vulkan()
 #    check_donate()
     fill_missing_platforms()
