@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Qvevri
+Comment=Basic Wine Manager
+Categories=Utilities;
+Keywords=wine;emulator;launcher;
+Exec=/opt/Qvevri/bin/qvevri %U
+Icon=/opt/Qvevri/share/qvevri/media/logo.png
+Terminal=false
+MimeType=x-scheme-handler/qvevri;
+
