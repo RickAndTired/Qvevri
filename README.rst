@@ -1,8 +1,8 @@
 ******
 Qvevri
 ******
-Qvevri is a basic Wine Manager forked from Lutris
 
+Qvevri is a basic Wine Manager forked from Lutris
 
 **Dependencies:**
 
@@ -17,8 +17,6 @@ Run **Qvevri-Launcher** or **bin/qvevri**
 **Locations**
 
 ~/.local/share/qvevri/
-
-~/.local/share/qvevri/defaultbottle/
 
 ~/.local/share/qvevri/runners/wine/
 
