@@ -227,7 +227,7 @@ class wine(Runner):
                 "default": False,
                 "active": True,
                 "help": (
-                    "Enable for better performance with Directx9, Directx10, and Directx11"
+                    "Enable for better performance with Directx9, Directx10, and Directx11 Games"
                 ),
             },
             {
