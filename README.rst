@@ -1,6 +1,7 @@
 ******
 Qvevri
 ******
+.. image:: https://i.imgur.com/DMI4nXC.png
 
 Qvevri is a basic Wine Manager forked from Lutris
 
@@ -22,6 +23,9 @@ Run **Qvevri-Launcher** or **bin/qvevri**
 
 ~/.config/qvevri/
 
+**Screenshot**
+
+.. image:: https://i.imgur.com/aoUV3nW.png
 
 ******
 ToDo
