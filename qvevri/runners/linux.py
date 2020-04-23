@@ -8,7 +8,7 @@ from qvevri.util.strings import split_arguments
 
 class linux(Runner):
     human_name = "Linux"
-    description = "Runs native games"
+    description = "Runs Native Programs"
     platforms = ["Linux"]
 
     game_options = [

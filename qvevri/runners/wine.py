@@ -53,7 +53,7 @@ MIN_SAFE_VERSION = "4.0"  # Wine installers must run with at least this version
 
 
 class wine(Runner):
-    description = "Runs Windows games"
+    description = "Runs Windows Programs"
     human_name = "Wine"
     platforms = ["Windows"]
     multiple_versions = True
