@@ -164,6 +164,6 @@ def run_all_checks():
     """Run all startup checks"""
     check_driver()
     check_libs()
-    check_vulkan()
+#    check_vulkan()
 #    check_donate()
     fill_missing_platforms()
