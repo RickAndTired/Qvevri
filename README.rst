@@ -105,7 +105,7 @@ Other
 - [] text clean up
 - [] name clean up
 - [] hide runner selection
-
+- [] add toggle for DXVK_HUD
 
 
 Long-term ToDo / unlikly wish list
