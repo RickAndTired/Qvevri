@@ -90,8 +90,7 @@ system_options = [  # pylint: disable=invalid-name
         "condition": "bool",
         "label": "Enable Feral gamemode",
         "help": (
-            "Request a set of optimisations be temporarily applied to the host OS"
-            "Large performance improvement in some games"
+            "Sets CPU to run at full speed and other game optimizations"
         )
     },
     {
@@ -100,7 +99,7 @@ system_options = [  # pylint: disable=invalid-name
         "label": "Enable ACO shader compiler",
         "condition": system.LINUX_SYSTEM.is_feature_supported("ACO"),
         "help": (
-            "Enable ACO shader compiler, improving performance in a lot of games. "
+            "AMD/Intel Graphics - Enable ACO shader compiler, improving performance in many games. "
             "Requires Mesa 19.3 or later."
         )
     },
