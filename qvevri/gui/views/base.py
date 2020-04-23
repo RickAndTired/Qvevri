@@ -1,4 +1,5 @@
 from gi.repository import Gdk, GObject
+from lutris.util.log import logger
 from qvevri.game import Game
 from qvevri import pga
 from qvevri.gui.views import (
@@ -32,13 +33,11 @@ class GameView:
             view.current_path = view.get_path_at_pos(event.x, event.y)
             if view.current_path:
                 view.select()
-        except ValueError:
-            (_, path) = view.get_selection().get_selected()
-            view.current_path = path
+                game_row = self.game_store.get_row_by_id(self.selected_game.id)
+                self.contextual_menu.popup(event, game_row)
+        except ValueError as ex:
+            logger.error("Failed to read path: %s", ex)
 
-        if view.current_path:
-            game_row = self.game_store.get_row_by_id(self.selected_game.id)
-            self.contextual_menu.popup(event, game_row)
 
     def get_selected_game(self, selected_item):
         selected_game = None
