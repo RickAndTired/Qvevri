@@ -12,7 +12,7 @@ Python 3 (PyGObject3 and PyYAML)
 
 **Download and extract Qvevri**
 
-Run **Qvevri-Launcher.sh** or **bin/qvevri**
+Run **Qvevri-Launcher** or **bin/qvevri**
 
 **Locations**
 
@@ -52,6 +52,7 @@ ToDo
 /qvevri/gui/config/common.py
 
 - [x] hide install runner
+- [x] remove confirm runner change
 - [] hide release year (causes error)
 
 /qvevri/runners/__init__.py
@@ -66,6 +67,10 @@ ToDo
 - [x] hide various options
 - [x] hide various options to "advanced"
 - [x] reorganize options
+- [x] reword to "Wine (Runs Windows Programs)"
+
+/qvevri/runners/linux.py
+- [x] reword to "Linux (Runs Native Programs)"
 
 /qvevri/game_actions.py
 
@@ -84,6 +89,7 @@ ToDo
 - [x] change defualt installation folder
 - [x] hide everything other than Gamemode, ACO, and Environment variables to "advanced"
 - [x] remove "condition" line from gamemode
+
 
 Other
 
