@@ -55,7 +55,6 @@ ToDo
 
 /qvevri/gui/config/common.py
 
-- [x] hide install runner
 - [x] remove confirm runner change
 - [x] rename "Game options"
 - [x] rename "Game info"
@@ -63,7 +62,7 @@ ToDo
 
 /qvevri/runners/__init__.py
 
-- [x] hide all runners except wine
+- [x] hide all runners except wine and linux
 
 /qvevri/runners/wine.py
 
