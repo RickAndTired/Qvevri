@@ -79,6 +79,7 @@ ToDo
 - [x] reword to "Wine (Runs Windows Programs)"
 
 /qvevri/runners/linux.py
+
 - [x] reword to "Linux (Runs Native Programs)"
 
 /qvevri/game_actions.py
