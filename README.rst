@@ -109,6 +109,7 @@ Other
 - [x] replace icons/artwork
 - [x] add launcher to root dir
 - [x] move files to docs directory
+- [] Wine "Manage Versions" change server
 - [] snapcraft
 - [] remove unused code
 - [] remove unused files
