@@ -19,6 +19,8 @@ Run **Qvevri-Launcher** or **bin/qvevri**
 
 ~/.local/share/qvevri/
 
+~/.local/share/qvevri/defaultbottle
+
 ~/.local/share/qvevri/runners/wine/
 
 ~/.config/qvevri/
