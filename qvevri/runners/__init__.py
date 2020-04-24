@@ -17,7 +17,7 @@ __all__ = (
 #    "mednafen",
 #    "scummvm",
 #    "residualvm",
-    "libretro",
+#    "libretro",
 #    "ags",
     # Commdore
 #    "fsuae",
