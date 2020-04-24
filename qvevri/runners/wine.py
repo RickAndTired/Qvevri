@@ -62,7 +62,7 @@ class wine(Runner):
             "option": "exe",
             "type": "file",
             "label": "Executable",
-            "help": "The game's main EXE file",
+            "help": "The program's .exe file",
         },
         {
             "option": "working_dir",
@@ -70,7 +70,7 @@ class wine(Runner):
             "label": "Working directory",
             "advanced": True,
             "help": (
-                "The location where the game is run from.\n"
+                "The location where the program is run from.\n"
                 "By default, Qvevri uses the directory of the "
                 "executable."
             ),
@@ -81,7 +81,8 @@ class wine(Runner):
             "label": "Wine Bottle",
             "default": "~/.local/share/qvevri/defaultbottle",
             "help": (
-                'Change if you would like to keep programs seperate.'
+                "Location where all Windows files are stored.\n"
+                "Change if you would like to keep programs seperate."
             ),
         },
         {
@@ -183,9 +184,9 @@ class wine(Runner):
                 "choices": get_wine_version_choices,
                 "default": get_default_version(),
                 "help": (
-                    "The version of Wine used to launch the game.\n"
-                    "Using the last version is generally recommended, "
-                    "but some games work better on older versions."
+                    "Version of Wine used to launch program.\n"
+                    "Using the latest version is generally recommended, "
+                    "but some programs work better on older versions."
                 ),
             },
             {
