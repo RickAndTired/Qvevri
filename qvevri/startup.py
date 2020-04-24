@@ -24,6 +24,8 @@ def init_dirs():
         os.path.join(settings.DATA_DIR, "banners"),
         os.path.join(settings.DATA_DIR, "coverart"),
         os.path.join(settings.DATA_DIR, "runners"),
+        os.path.join(settings.DATA_DIR, "defaultbottle"),
+        os.path.join(settings.DATA_DIR, "programs"),
         os.path.join(settings.DATA_DIR, "lib"),
         settings.RUNTIME_DIR,
         settings.CACHE_DIR,
