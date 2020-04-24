@@ -112,6 +112,9 @@ ToDo
 - [x] hide everything other than Gamemode, ACO, and Environment variables to "advanced"
 - [x] remove "condition" line from gamemode
 
+/qvevri/gui/dialogs/__init__.py
+
+- [x] reword missing wine dialog
 
 Other
 
