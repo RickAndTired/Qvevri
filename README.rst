@@ -98,6 +98,14 @@ ToDo
 
 - [x] rename "Add a new game"
 
+/qvevri/util/linux.py
+
+- [x] rename "libgamemodeauto.so" to "libgamemodeauto.so.0"
+
+/qvevri/game.py
+
+- [x] rename "libgamemodeauto.so" to "libgamemodeauto.so.0"
+
 /qvevri/sysoptions.py
 
 - [x] change defualt installation directory
