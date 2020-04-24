@@ -92,7 +92,7 @@ class GameDialogCommon:
         self.runner_box = self._get_runner_box()
         info_box.pack_start(self.runner_box, False, False, 6)  # Runner
 
-        info_box.pack_start(self._get_year_box(), False, False, 6)  # Year
+#        info_box.pack_start(self._get_year_box(), False, False, 6)  # Year
 
         info_sw = self.build_scrolled_window(info_box)
         self._add_notebook_tab(info_sw, "Program info")
@@ -511,9 +511,9 @@ class GameDialogCommon:
         if not self.game:
             self.game = Game()
 
-        year = None
-        if self.year_entry.get_text():
-            year = int(self.year_entry.get_text())
+        year = 0
+#        if self.year_entry.get_text():
+#            year = int(self.year_entry.get_text())
 
         if not self.qvevri_config.game_config_id:
             self.qvevri_config.game_config_id = make_game_config_id(self.slug)
