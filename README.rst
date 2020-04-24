@@ -35,7 +35,7 @@ ToDo
 - [x] hide account button
 - [x] hide website search 
 - [x] hide view sorting options
-- [x] hide options "Installed Games Only" through "Show Tray Icon" other than Dark Theme and About
+- [x] hide options "Installed Games Only" through "Show Tray Icon" other than Dark Theme, Manager Runners, and About
 - [x] rename "About Qvevri"
 - [x] rename "Add Game"
 - [x] hide "Import Games"
