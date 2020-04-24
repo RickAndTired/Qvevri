@@ -49,7 +49,7 @@ ToDo
 
 - [x] hide left side panel by default
 - [x] hide right side panel by default
-- [x] set default runner to wine
+- [] set default runner to wine
 
 /qvevri/startup.py
 

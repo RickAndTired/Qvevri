@@ -838,7 +838,7 @@ class QvevriWindow(Gtk.ApplicationWindow):
     def on_add_game_button_clicked(self, *_args):
         """Add a new game manually with the AddGameDialog."""
         self.add_popover.hide()
-        AddGameDialog(self, runner="wine")
+        AddGameDialog(self, runner="")
         return True
 
     def remove_game_from_view(self, game_id, from_library=False):
