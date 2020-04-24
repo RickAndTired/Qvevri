@@ -60,7 +60,7 @@ ToDo
 - [x] remove confirm runner change
 - [x] rename "Game options"
 - [x] rename "Game info"
-- [] hide release year (causes error)
+- [x] hide release year
 
 /qvevri/runners/__init__.py
 
