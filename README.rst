@@ -124,7 +124,7 @@ Other
 - [] change remove button
 
 
-Long-term ToDo / unlikly wish list
+Long-term ToDo / unlikely wish list
 
 - [] Simplify - create Wine Bottle - Run installer - Create program listing
 - [] Left side panel - Wine Bottle selection
