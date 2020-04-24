@@ -470,10 +470,7 @@ class WineNotInstalledWarning(DontShowAgainDialog):
         super().__init__(
             "hide-wine-systemwide-install-warning",
             "Wine is not installed on your system.",
-            secondary_message="Having Wine installed on your system guarantees that "
-            "Wine builds from Qvevri will have all required dependencies.\n\nPlease "
-            "follow the instructions given in the <a "
-            "href='https://github.com/qvevri/qvevri/wiki/Wine-Dependencies'>Qvevri Wiki</a> to "
-            "install Wine.",
+            secondary_message="Please install wine through your 
+            "package manager",
             parent=parent,
         )
