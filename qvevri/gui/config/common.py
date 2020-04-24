@@ -95,7 +95,7 @@ class GameDialogCommon:
         info_box.pack_start(self._get_year_box(), False, False, 6)  # Year
 
         info_sw = self.build_scrolled_window(info_box)
-        self._add_notebook_tab(info_sw, "Game info")
+        self._add_notebook_tab(info_sw, "Program info")
 
     def _build_prefs_tab(self):
         prefs_box = VBox()
@@ -357,7 +357,7 @@ class GameDialogCommon:
             game_sw = self.build_scrolled_window(self.game_box)
         else:
             game_sw = Gtk.Label(label=self.no_runner_label)
-        self._add_notebook_tab(game_sw, "Game options")
+        self._add_notebook_tab(game_sw, "Program options")
 
     def _build_runner_tab(self, _config_level):
         if self.runner_name:

@@ -661,7 +661,7 @@
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
                 <property name="receives_default">True</property>
-                <property name="tooltip_text" translatable="yes">Search Games</property>
+                <property name="tooltip_text" translatable="yes">Search</property>
                 <signal name="toggled" handler="on_search_toggle" swapped="no"/>
                 <child>
                   <object class="GtkImage">

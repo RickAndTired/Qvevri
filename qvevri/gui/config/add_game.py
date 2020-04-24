@@ -8,7 +8,7 @@ class AddGameDialog(Dialog, GameDialogCommon):
     """Add game dialog class."""
 
     def __init__(self, parent, game=None, runner=None):
-        super().__init__("Add a new game", parent=parent)
+        super().__init__("Add a new program", parent=parent)
         self.game = game
         self.saved = False
 
