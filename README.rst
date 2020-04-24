@@ -39,6 +39,7 @@ ToDo
 - [x] rename "About Qvevri"
 - [x] rename "Add Game"
 - [x] hide "Import Games"
+- [x] rename "Search Games"
 
 /qvevri/gui/qvevriwindow.py
 
@@ -49,12 +50,15 @@ ToDo
 /qvevri/startup.py
 
 - [x] hide pop ups
+- [x] remove vulkan pop up
 - [x] change driver message
 
 /qvevri/gui/config/common.py
 
 - [x] hide install runner
 - [x] remove confirm runner change
+- [x] rename "Game options"
+- [x] rename "Game info"
 - [] hide release year (causes error)
 
 /qvevri/runners/__init__.py
@@ -86,6 +90,10 @@ ToDo
 
 - [x] hide all columns other than Name
 
+/qvevri/gui/config/add_game.py
+
+- [x] rename "Add a new game"
+
 /qvevri/sysoptions.py
 
 - [x] change defualt installation folder
@@ -101,15 +109,14 @@ Other
 - [x] change config directory
 - [x] replace icons/artwork
 - [x] add launcher to root dir
-- [] edit CONTRIBUTING.md
-- [] remove setup.py ?
+- [x] move files to docs directory
 - [] snapcraft
 - [] remove unused code
 - [] remove unused files
 - [] text clean up
 - [] name clean up
-- [] hide runner selection
 - [] add toggle for DXVK_HUD
+- [] change remove button
 
 
 Long-term ToDo / unlikly wish list
