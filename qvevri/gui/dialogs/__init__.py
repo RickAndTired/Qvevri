@@ -470,7 +470,7 @@ class WineNotInstalledWarning(DontShowAgainDialog):
         super().__init__(
             "hide-wine-systemwide-install-warning",
             "Wine is not installed on your system.",
-            secondary_message="Please install wine through your 
+            secondary_message="Please install wine through your"
             "package manager",
             parent=parent,
         )
