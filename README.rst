@@ -52,6 +52,8 @@ ToDo
 - [x] hide pop ups
 - [x] remove vulkan pop up
 - [x] change driver message
+- [x] create defaultbottle directory
+- [x] create default installation directory
 
 /qvevri/gui/config/common.py
 
@@ -95,7 +97,7 @@ ToDo
 
 /qvevri/sysoptions.py
 
-- [x] change defualt installation folder
+- [x] change defualt installation directory
 - [x] hide everything other than Gamemode, ACO, and Environment variables to "advanced"
 - [x] remove "condition" line from gamemode
 
