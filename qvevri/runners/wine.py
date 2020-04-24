@@ -124,7 +124,7 @@ class wine(Runner):
         }
 
         def get_wine_version_choices():
-            version_choices = [("Custom (select executable below)", "custom")]
+            version_choices = [("Custom - Select executable below (Advanced Options)", "custom")]
             labels = {
                 "winehq-devel": "WineHQ devel ({})",
                 "winehq-staging": "WineHQ staging ({})",
