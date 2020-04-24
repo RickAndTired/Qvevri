@@ -78,7 +78,7 @@ SYSTEM_COMPONENTS = {
         "VULKAN": ["libvulkan.so.1"],
         "WINE": ["libsqlite3.so.0"],
         "RADEON": ["libvulkan_radeon.so"],
-        "GAMEMODE": ["libgamemodeauto.so"],
+        "GAMEMODE": ["libgamemodeauto.so.0"],
     },
 }
 
