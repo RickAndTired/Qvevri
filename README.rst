@@ -42,6 +42,8 @@ ToDo
 - [x] rename "Add Game"
 - [x] hide "Import Games"
 - [x] rename "Search Games"
+- [x] reword search field “Filter the list of games”
+
 
 /qvevri/gui/qvevriwindow.py
 
