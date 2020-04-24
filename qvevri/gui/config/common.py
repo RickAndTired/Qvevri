@@ -214,7 +214,7 @@ class GameDialogCommon:
 
         install_runners_btn = Gtk.Button("Install runners")
         install_runners_btn.connect("clicked", self.on_install_runners_clicked)
-        runner_box.pack_start(install_runners_btn, True, True, 0)
+#        runner_box.pack_start(install_runners_btn, True, True, 0)
 
         return runner_box
 

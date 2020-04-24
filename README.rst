@@ -61,6 +61,7 @@ ToDo
 
 /qvevri/gui/config/common.py
 
+- [x] hide install runner button
 - [x] remove confirm runner change
 - [x] rename "Game options"
 - [x] rename "Game info"
