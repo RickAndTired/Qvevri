@@ -115,6 +115,7 @@ Other
 - [x] add launcher to root dir
 - [x] move files to docs directory
 - [] Wine "Manage Versions" change server
+- [] set default view to list
 - [] snapcraft
 - [] remove unused code
 - [] remove unused files
