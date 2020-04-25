@@ -130,6 +130,7 @@ Other
 - [x] move files to docs directory
 - [] Wine "Manage Versions" change server
 - [] set default view to list
+- [] create installer
 - [] snapcraft
 - [] remove unused code
 - [] remove unused files
