@@ -10,7 +10,7 @@ Qvevri is a basic Wine Manager forked from Lutris
 
 Wine
 
-Python 3 (PyGObject3 and PyYAML)
+Python 3
 
 **Download and extract Qvevri**
 
