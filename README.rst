@@ -1,6 +1,7 @@
 ******
 Qvevri
 ******
+
 .. image:: https://i.imgur.com/DMI4nXC.png
 
 Qvevri is a basic Wine Manager forked from Lutris
