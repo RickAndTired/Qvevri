@@ -28,7 +28,7 @@ Copy /opt/Qvevri/qvevri.desktop to ~/.local/share/applications/qvevri.desktop
 
 ~/.local/share/qvevri/
 
-~/.local/share/qvevri/defaultbottle
+~/.local/share/qvevri/defaultbottle/
 
 ~/.local/share/qvevri/runners/wine/
 
