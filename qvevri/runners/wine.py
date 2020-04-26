@@ -65,6 +65,13 @@ class wine(Runner):
             "help": "The program's .exe file",
         },
         {
+            "option": "args",
+            "type": "string",
+            "label": "Arguments",
+            "help": "Windows command line arguments used when launching the game",
+            "validator": shlex.split
+        },
+        {
             "option": "working_dir",
             "type": "directory_chooser",
             "label": "Working directory",
@@ -198,13 +205,6 @@ class wine(Runner):
                     "The Wine executable to be used if you have "
                     'selected "Custom" as the Wine version.'
                 ),
-            },
-            {
-            "option": "args",
-            "type": "string",
-            "label": "Arguments",
-            "help": "Windows command line arguments used when launching the game",
-            "validator": shlex.split
             },
             {
                 "option": "esync",

@@ -75,7 +75,6 @@ ToDo
 
 - [x] set default wine prefix/bottle
 - [x] rename wine prefix to wine bottle
-- [x] move arguments to below Wine Version in Options tab
 - [x] hide various options
 - [x] hide various options to "advanced"
 - [x] reorganize options
