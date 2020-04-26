@@ -6,6 +6,10 @@ Qvevri
 
 Qvevri is a basic Wine Manager forked from Lutris
 
+**Screenshot**
+
+.. image:: https://i.imgur.com/aoUV3nW.png
+
 **Dependencies:**
 
 Wine
@@ -16,6 +20,12 @@ Python 3
 
 Run **Qvevri-Launcher** or **bin/qvevri**
 
+**Install**
+
+Extract to /opt/Qvevri/
+
+Copy /opt/Qvevri/qvevri.desktop to ~/.local/share/applications/qvevri.desktop
+
 **Locations**
 
 ~/.local/share/qvevri/
@@ -25,10 +35,6 @@ Run **Qvevri-Launcher** or **bin/qvevri**
 ~/.local/share/qvevri/runners/wine/
 
 ~/.config/qvevri/
-
-**Screenshot**
-
-.. image:: https://i.imgur.com/aoUV3nW.png
 
 ******
 ToDo
