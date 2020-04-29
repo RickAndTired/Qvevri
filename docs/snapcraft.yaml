@@ -1,0 +1,30 @@
+name: qvevri
+version: '0.12'
+summary: qvevri snap
+description: |
+    Qvevri snap
+
+grade: stable
+confinement: strict
+base: core18
+
+parts:
+    qvevri:
+        source: Qvevri.tar.gz
+        plugin: dump
+        build-packages: [gcc, make]
+        stage-packages: [python3-dbus, python3-yaml, python3-requests, python3-pil, python3-gi, gir1.2-gtk-3.0, gir1.2-gnomedesktop-3.0, gir1.2-webkit2-4.0, gir1.2-notify-0.7, psmisc, cabextract, unzip, p7zip, curl, fluid-soundfont-gs, x11-xserver-utils, python3-evdev, libc6-i386, lib32gcc1, libgirepository1.0-dev, python3-setproctitle, python3-distro, wine, libcanberra-gtk-module, libcanberra-gtk3-module]
+
+slots:
+    dbus-daemon:
+        interface: dbus
+        bus: session
+        name: net.qvevri.Qvevri
+
+apps:
+    qvevri:
+        extensions: [gnome-3-34]
+        command: bin/qvevri
+        slots: [dbus-daemon]
+        plugs: [home, daemon-notify, network, network-bind, network-manager, opengl, pulseaudio, gsettings, screen-inhibit-control, kvm, libvirt, removable-media, joystick, io-ports-control, hardware-observe, mount-observe, vulkan]
+
